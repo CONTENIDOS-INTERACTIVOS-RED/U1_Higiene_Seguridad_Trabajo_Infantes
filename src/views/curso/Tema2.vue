@@ -93,13 +93,13 @@
           .col-lg-6.mb-4(data-aos="zoom-in-up")
             .custom-image-card-2.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/6.png" alt="")
-              .custom-image-card__text.p-4
+              .custom-image-card__text.p-4.text-center
                 h5.mb-2.text-center Artículo 18
                 p.mb-0 Derecho a ser protegidos contra toda forma de maltrato, abuso, daño o sufrimiento físico.
           .col-lg-6.mb-4(data-aos="zoom-in-down")
             .custom-image-card-2.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/7.png" alt="")
-              .custom-image-card__text.p-4
+              .custom-image-card__text.p-4.text-center
                 h5.mb-2.text-center Artículo 29
                 p.mb-0 El Estado debe garantizar atención oportuna y de calidad frente a cualquier amenaza a la integridad, supervivencia y desarrollo infantil.
         
@@ -128,7 +128,7 @@
     
     p.mb-5 Las responsabilidades de las instituciones educativas son:
 
-    .row.justify-content-center.align-items-center.bg-color-6.bg-full-width
+    .row.justify-content-center.align-items-center.bg-color-6.bg-full-width.px-4.px-md-5
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-7(data-aos="fade-left").order-2
@@ -164,15 +164,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://www.comunidadandina.org/StaticFiles/2017522151956ESTRATEGIA%20ANDINA.pdf " target="_blank" rel="noopener noreferrer") PREDECAN, Consideraciones en torno al enfoque, los conceptos y los términos que rigen con referencia a la reducción del riesgo y la atención de desastres en los países Andinos miembros del CAPRADE, 2007.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.infocop.es/la-seguridad-y-la-salud-como-materia-de-ensenanza-en-educacion-secundaria-obligatoria-nueva-guia/ " target="_blank" rel="noopener noreferrer") Infocop. (2023, 27 marzo). La seguridad y la salud como materia de enseñanza en educación secundaria obligatoria, nueva guía - Infocop. Infocop. 
+
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=wSCOdYNumts " target="_blank" rel="noopener noreferrer") @leoquij. (2021, 6 de junio). Plan de Evacuación en Escuelas, pautas y procedimientos. #emergencias #simulacros #escuelas #planes [Vídeo]. YouTube. 
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

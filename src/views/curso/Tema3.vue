@@ -7,7 +7,7 @@
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-9(data-aos="fade-left").order-2
-           p.mb-0 Los accidentes en la primera infancia son eventos inesperados, no intencionales y súbitos, que pueden ocasionar daño físico o psicológico a niñas y niños. La Organización Mundial de la Salud (OMS, 2002) clasifica los accidentes como una forma de violencia no intencional, definiéndolos como “el uso deliberado de la fuerza física o del poder, ya sea en grado de amenaza o efectivo, contra uno mismo, otra persona o un grupo o comunidad, que cause o tenga muchas probabilidades de causar lesiones, muerte, daños psicológicos, trastornos del desarrollo o privaciones”. Estos sucesos surgen a partir de factores de riesgo ambientales, humanos o combinados, y su gravedad puede variar desde raspaduras y contusiones hasta fracturas, intoxicaciones o secuelas emocionales.
+            p.mb-0 Los accidentes en la primera infancia son eventos inesperados, no intencionales y súbitos, que pueden ocasionar daño físico o psicológico a niñas y niños. La Organización Mundial de la Salud (OMS, 2002) clasifica los accidentes como una forma de violencia no intencional, definiéndolos como “el uso deliberado de la fuerza física o del poder, ya sea en grado de amenaza o efectivo, contra uno mismo, otra persona o un grupo o comunidad, que cause o tenga muchas probabilidades de causar lesiones, muerte, daños psicológicos, trastornos del desarrollo o privaciones”. Estos sucesos surgen a partir de factores de riesgo ambientales, humanos o combinados, y su gravedad puede variar desde raspaduras y contusiones hasta fracturas, intoxicaciones o secuelas emocionales.
           .col-lg-3(data-aos="zoom-in").order-1.mb-3.mb-lg-0
             img.img-fluid(src='@/assets/curso/tema3/1.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
 
@@ -165,19 +165,19 @@
           .col-lg-4.mb-4(data-aos="zoom-in-up")
             .custom-image-card-2.h-100
               img.custom-image-card__image(src="@/assets/curso/tema3/12.png" alt="")
-              .custom-image-card__text.p-4
+              .custom-image-card__text.p-4.text-center
                 h5.mb-2.text-center Exposición a fluidos corporales
                 p.mb-0 Contacto con saliva, orina u otros fluidos durante actividades de higiene o atención directa. Aumenta el riesgo de contagio si no se siguen medidas de protección.
           .col-lg-4.mb-4(data-aos="zoom-in-down")
             .custom-image-card-2.h-100
               img.custom-image-card__image(src="@/assets/curso/tema3/13.png" alt="")
-              .custom-image-card__text.p-4
+              .custom-image-card__text.p-4.text-center
                 h5.mb-2.text-center Transmisión de enfermedades infecciosas
                 p.mb-0 Patologías como resfriados, gripe, gastroenteritis, piojos, sarna o COVID-19 son comunes en entornos con alto nivel de contacto físico. La propagación es más probable si no existen estrategias de aislamiento eficaces.
           .col-lg-4.mb-4(data-aos="zoom-in-down")
             .custom-image-card-2.h-100
               img.custom-image-card__image(src="@/assets/curso/tema3/14.png" alt="")
-              .custom-image-card__text.p-4
+              .custom-image-card__text.p-4.text-center
                 h5.mb-2.text-center Falta de recursos de protección
                 p.mb-0 La ausencia o insuficiencia de guantes, mascarillas o lavamanos funcionales incrementa la vulnerabilidad frente a contagios.
     
@@ -253,7 +253,7 @@
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-10(data-aos="fade-left").order-2
-           p.mb-0 Mejorar el diseño ambiental de los espacios, incorporar ventilación cruzada, optimizar la iluminación natural y controlar el nivel de ruidos son intervenciones clave para crear ambientes más saludables.
+            p.mb-0 Mejorar el diseño ambiental de los espacios, incorporar ventilación cruzada, optimizar la iluminación natural y controlar el nivel de ruidos son intervenciones clave para crear ambientes más saludables.
           .col-lg-2(data-aos="zoom-in").order-1.mb-3.mb-lg-0
             img.img-fluid(src='@/assets/curso/tema3/21.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
         
@@ -267,15 +267,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://dyle.es/prevencion-de-riesgos-laborales-en-los-centros-escolares-contribucion-de-la-seguridad-y-la-salud-en-el-aprendizaje/ " target="_blank" rel="noopener noreferrer") Prevención de riesgos laborales en los centros escolares: contribución de la seguridad y la salud en el aprendizaje - DYLE. (s. f.-b). 
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://osha.europa.eu/es/themes/mainstreaming-osh-education " target="_blank" rel="noopener noreferrer") Integración de la SST en la educación. (2025, 6 septiembre). Safety And Health At Work EU-OSHA. 
+
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=hd352rlWJBE " target="_blank" rel="noopener noreferrer") K ND. (2013, 16 de abril). Prevención de enfermedades derivadas de la actividad profesional del personal docente. [Vídeo]. YouTube. 
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
